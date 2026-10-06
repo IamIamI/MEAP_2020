@@ -38,19 +38,19 @@ The pipeline assumes all previous steps have been performed and are in the outpu
 
 
 ```bash
-├── Output_folder/
-│   ├──Trimmed_reads/
-│   │   ├──sample1/
-│   │   │   ├──sample1_*_R1_001_val_1.fq
-│   │   │   └──sample1_*_R2_001_val_2.fq
-│   │   └──sampleN/
-│   │       └──...
-│   └── Mapping_to_ref/
-│       ├──sample1/
-│       │   └──sample1.sorted.bam
-│       └──sampleN/
-│           └──...
-└── ─── Coverage_analysis/
+└── Output_folder/
+    ├──Trimmed_reads/
+    │   ├──sample1/
+    │   │   ├──sample1_*_R1_001_val_1.fq
+    │   │   └──sample1_*_R2_001_val_2.fq
+    │   └──sampleN/
+    │       └──...
+    ├── Mapping_to_ref/
+    │   ├──sample1/
+    │   │   └──sample1.sorted.bam
+    │   └──sampleN/
+    │       └──...
+    └── Coverage_analysis/
         ├──Coverage_distributions.pdf
         ├──Sample_read_quality.pdf
         └──Analyzed_Coverage_Data.tsv
