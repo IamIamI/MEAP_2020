@@ -19,13 +19,13 @@ following publication: Moura et al XXXXX
 
 MEAP was developed to process paired end illumina based sequencing data and run exome analysis using it.
 The tools used by the pipeline are assumed to be preinstalled and include in the user's PATH
-*[option -1] Trim Galore! v0.6.5				(https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
+* [option -1] Trim Galore! v0.6.5				(https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
 	* Cutadapt v2.10				(https://pypi.python.org/pypi/cutadapt/)
 	* FastQC v0.11.9				(https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-*[option -2] Bowtie2 v2.4.1				(http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.4.1/)
-*[option -2] SAMtools v1.11				(https://www.htslib.org/download/)
-*[option -3] R v4.0.3				(http://www.r-project.org/)
-*[option -3] bedtools v2.29				(https://bedtools.readthedocs.io/en/latest/)
+* [option -2] Bowtie2 v2.4.1				(http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.4.1/)
+* [option -2] SAMtools v1.11				(https://www.htslib.org/download/)
+* [option -3] R v4.0.3				(http://www.r-project.org/)
+* [option -3] bedtools v2.29				(https://bedtools.readthedocs.io/en/latest/)
 	
 Please make sure these tools are installed and that their executables are added to your PATH 
 However, if the user doesn't have these tools installed, an attempt has been made to create an automated
